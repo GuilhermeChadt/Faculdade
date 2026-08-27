@@ -1,5 +1,6 @@
 # EXPLORANDO RECURSOS AULA 2
 # SETS, ARRAY NUMPY, DICT
+import numpy as np # importando a biblioteca numpy
 
 conjunto = set() # criando um set vazio
 conjunto.add(1) # adicionando elementos ao set
