@@ -1,4 +1,4 @@
-# EXPLORANDO RECURSOS AULA 2
+# EXPLORANDO RECURSOS - AULA 2
 # SETS, ARRAY NUMPY, DICT
 import numpy as np # importando a biblioteca numpy
 

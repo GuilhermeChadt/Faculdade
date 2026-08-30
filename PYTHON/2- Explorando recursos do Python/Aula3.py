@@ -1,4 +1,4 @@
-# CLASSES E MÉTODOS EM PYTHON
+# CLASSES E MÉTODOS - AULA 3
 
 class Pessoa: # construtor da classe
     def __init__(self, nome, idade, genero):
@@ -28,10 +28,9 @@ class Veículo: # construtor da classe
         self.modelo = modelo
         self.ano = ano 
         self.velocidade = 0 # veículo inicia parado 
-    # método acelerar adiciona 1 a variável e método freiar reduz 1 a variável
-    def acelerar(self, incremento): 
+  
+    def acelerar(self, incremento):
         self.velocidade += incremento
-        self.velocidade = int(input("Acelere o carro, escolha um número para até 100"))
 
     def freiar(self, decremento):
         self.velocidade -= decremento

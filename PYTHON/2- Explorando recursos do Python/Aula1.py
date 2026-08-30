@@ -1,4 +1,4 @@
-#EXPLORANDO RECURSOS
+# EXPLORANDO RECURSOS - AULA 1
 
 texto = "Olá, mundo!"
 print(type(texto)) # imprimindo tipo da variável
