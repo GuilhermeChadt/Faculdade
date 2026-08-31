@@ -35,7 +35,7 @@ print(min1)
 min2 = series2.min()
 print(min2)
 
-# CAMINHO DO ARQUIVO A SER ARMAZENADO
+# CAMINHO DO ARQUIVO A SER ARMAZENADO - DATABASE NOTAS FISCAIS 
 caminho_arquivo = r'C:\Users\chadt\Downloads\202601_NFe\202601_NFe_NotaFiscal.csv'
 # LEITURA DO ARQUIVO CSV
 df = pd.read_csv(caminho_arquivo, sep=';', encoding='latin1')
